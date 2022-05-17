@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.Storm {
+	background-image: url(../Assets/img/storm.jpg);
+}
+.Drizzle {
+	background-image: url(../Assets/img/drizzle.jpg);
+}
+.Sun {
+	background-image: url(../Assets/img/sun.jpg);
+}
+.Rain {
+	background-image: url(../Assets/img/rain.jpg);
+}
+
+.Snow {
+	background-image: url(../Assets/img/snow.jpg);
+}
+.Atmosphere {
+	background-image: url(../Assets/img/atmosphere.jpg);
+}
+.Cloud {
+	background-image: url(../Assets/img/cloud.jpg);
+}
+
+

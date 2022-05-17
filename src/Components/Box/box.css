@@ -1,0 +1,76 @@
+.box {
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px 30px;
+
+	transform: scale(1);
+	box-shadow: 0 0 5px 5px #000;
+	transition: box-shadow 0.5s, transform 0.5s;
+}
+.box:hover {
+	transform: scale(1.01);
+	box-shadow: 0 0 15px 7px #000;
+	transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.box__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.box__city {
+    text-transform: uppercase;
+}
+
+.box__input {
+	all: unset;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 5px 10px;
+    color: #000;
+}
+.box__input::placeholder{
+    color: #000;
+}
+.box__btn {
+	background-color: gray;
+	padding: 5px 10px;
+	margin-left: 20px;
+}
+.box__body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.box__body img {
+	width: 30%;
+}
+
+.box__temp {
+	font-size: 106px;
+	text-align: center;
+}
+.box__temps {
+	font-size: 32px;
+	text-align: center;
+}
+
+.box__more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.box__more:last-child {
+    margin: 0;
+}
+.box__more img {
+    width: 32px;
+}
+.box__desciption {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
